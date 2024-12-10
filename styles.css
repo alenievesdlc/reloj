@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .clock-container {
+    text-align: center;
+  }
+  
+  #clock {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .controls select, .controls button {
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .controls select {
+    background-color: #444;
+    color: white;
+  }
+  
+  .controls button {
+    background-color: #61dafb;
+    color: #282c34;
+    cursor: pointer;
+  }
+  
+  .controls button:hover {
+    background-color: #21a1f1;
+  }
+  

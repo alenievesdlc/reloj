@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reloj Digital Configurable</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="clock-container">
+    <h1 id="clock">00:00:00</h1>
+    <div class="controls">
+      <select id="timezone">
+        <option value="local">Hora Local</option>
+        <option value="UTC">UTC</option>
+        <option value="America/New_York">Nueva York</option>
+        <option value="Europe/Madrid">Madrid</option>
+        <!-- Agrega más zonas horarias según sea necesario -->
+      </select>
+      <button id="toggle-format">Cambiar Formato</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
